@@ -1,0 +1,19 @@
+{
+    "presets": [
+        ["@babel/env", {
+            "targets": {
+                "browsers": [
+                    "last 5 versions",
+                    "ie >= 8"
+                ]
+            }
+        }]
+    ]
+}
+
+// @ babel / preset-env es un preajuste inteligente que le permite usar el último
+// JavaScript sin necesidad de microgestión, qué transformaciones de sintaxis
+// (y, opcionalmente, polyfills del navegador) son necesarias para su (s) entorno (s)
+// de destino. ¡Esto te hace la vida más fácil y los paquetes de JavaScript más pequeños!
+// ultimas 5 versiones
+// ienternet explore mayor o igual v8
